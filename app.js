@@ -13,7 +13,8 @@ var express = require('express'),
 
 //seedDB();
 
-mongoose.connect('mongodb://mongodb+srv://admin:<password>@cluster0-gz9cn.mongodb.net/test?retryWrites=true&w=majority/yelpcamp');
+
+mongoose.connect('mongodb+srv://admin:cuong1234@cluster0-gz9cn.mongodb.net/test?retryWrites=true&w=majority');
 
 // passport session
 app.use(require('express-session')({
@@ -50,4 +51,5 @@ app.use(campgroundRoutes);
 
 app.listen(process.env.PORT, process.env.IP, function(){
   console.log('Server started at PORT '+2000);
+  console.log('port');
 });
