@@ -48,6 +48,6 @@ app.use(indexRoutes);
 app.use(commentRoutes);
 app.use(campgroundRoutes);
 
-app.listen(2000, 'localhost', function(){
+app.listen(process.env.PORT, process.env.IP, function(){
   console.log('Server started at PORT '+2000);
 });
