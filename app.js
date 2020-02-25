@@ -13,7 +13,7 @@ var express = require('express'),
 
 //seedDB();
 
-mongoose.connect('mongodb://mongodb+srv://admin:cuong1234@cluster0-gz9cn.mongodb.net/test?retryWrites=true&w=majority/yelpcamp');
+mongoose.connect('mongodb://mongodb+srv://admin:<password>@cluster0-gz9cn.mongodb.net/test?retryWrites=true&w=majority/yelpcamp');
 
 // passport session
 app.use(require('express-session')({
