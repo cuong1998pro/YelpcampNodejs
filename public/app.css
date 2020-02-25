@@ -1,0 +1,25 @@
+.thumbnail{
+  padding: 0px;
+}
+
+.frm{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.thumbnail .caption-full{
+  padding:9px;
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail img {
+  width:100%;
+}
+
+#delete-form{
+  display: inline;
+}
